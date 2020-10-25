@@ -1,0 +1,130 @@
+.evening-program{
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.weight{
+    font-weight: bold;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.btn-bo{
+    border-radius: 0px;
+}
+
+.title-actualite{
+    text-transform: uppercase;
+}
+
+.separator {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 3px;
+    width: 70%;
+    border-top: 5px dashed rgba(72,0,0,0.8);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    .informations-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-footer, .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .informations-container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .container-footer, .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .card-film, .card-actualite{
+        padding: 0rem 8rem 3rem 8rem;
+    }
+
+    .informations-container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .container-footer, .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .informations-container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .container-footer, .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .informations-container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .container-footer, .links{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .social-icons, .links{
+        align-self: flex-end;
+    }
+ }

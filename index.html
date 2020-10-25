@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Films de Pleins Air</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#">Les Films de Pleins Air</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Programme</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Actualités</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A propos de nous</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- entête du site -->
+    <header class="p-5"
+        style="background-image: url('./images/cinema-header.jpg'); background-size: cover; background-position: center">
+        <div class="header-div text-center">
+            <h1 class="text-white">Les Films de Pleins Air</h1>
+            <h2 class="text-white">Du 05 Au 08 Aout 2020</h2>
+        </div>
+    </header>
+
+    <!-- liste de film à projeter du soir en cours -->
+    <section class="evening-program">
+        <hr class="separator">
+        <h2 class="text-center p-2">Programme de ce soir</h2>
+        <hr class="separator">
+        <div class="container">
+            <div class="row">
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">18h00 à 20h25</div>
+                        <img src="./images/films/les_choses_qu_on_dit_les_choses_qu_on_fait.jpg" class="card-img-top"
+                            alt="LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT">
+
+                        <div class="btn-group" role="group" aria-label="btn-group-film-1">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-1">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT</h5>
+                            <p class="card-text">Daphné, enceinte de trois mois, est en vacances à la campagne avec son
+                                compagnon François. Il doit s’absenter pour ...</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">20h30 à 22h55</div>
+                        <img src="./images/films/merveilles_a_montfermeil.jpg" class="card-img-top"
+                            alt="MERVEILLES À MONTFERMEIL">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-2">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-2">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">MERVEILLES À MONTFERMEIL</h5>
+                            <p class="card-text">Tout premier long-métrage réalisé en solo par l'actrice Jeanne Balibar
+                                (lauréate du
+                                César de la meilleure actrice en 2018 pour Barbar..
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">23h00 à 23h55</div>
+                        <img src="./images/films/les_heros_ne_meurent_jamais.jpg" class="card-img-top"
+                            alt="LES HÉROS NE MEURENT JAMAIS">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-3">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-3">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">LES HÉROS NE MEURENT JAMAIS</h5>
+                            <p class="card-text">Dans une rue de Paris, un inconnu croit reconnaitre en Joachim un
+                                soldat mort en Bosnie le 21 août 1983.Or, le 21 août 1983 est le jour même de ...</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- dernières actualités -->
+    <section class="evening-program pb-5">
+        <hr class="separator">
+        <h2 class="text-center p-2">dernières actualités</h2>
+        <hr class="separator">
+        <div class="container">
+            <div class="row">
+                <div class="card-actualite col-lg-4">
+                    <div class="card">
+                        <img src="./images/actualites/actu1.jpg" class="card-img-top" alt="actualités 1">
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center title-actualite">consectetur adipiscing elit</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed
+                                tempus lectus. Donec id mi eget ex bibendum varius vitae quis augue...</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <!-- Bouton modal lire l'article -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Lire l'article
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-actualite col-lg-4">
+                    <div class="card">
+                        <img src="./images/actualites/actu2.jpg" class="card-img-top" alt="actualités 2">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center title-actualite">Nam tellus diam, ultricies quis</h5>
+                            <p class="card-text">Integer suscipit tincidunt maximus. Mauris convallis libero ex, nec
+                                placerat orci placerat et. Integer congue nisi eu nunc sagittis finibus...
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal lire l'article -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Lire l'article
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-actualite col-lg-4">
+                    <div class="card">
+                        <img src="./images/actualites/actu3.jpg" class="card-img-top" alt="actualités 3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center title-actualite">Proin et purus in massa</h5>
+                            <p class="card-text">Mauris convallis libero ex, nec placerat orci placerat et. Integer
+                                congue nisi eu nunc sagittis finibus. Duis aliquet ligula id dui varius euismod....</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal lire l'article -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Lire l'article
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FILM 1 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 1) -->
+    <div class="modal fade" id="en-savoir-plus-film-1" tabindex="-1" aria-labelledby="en-savoir-plus-film-1"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-1">LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Amour, Drame, Film d'auteur, Problème de couple, Séduction</p>
+                    <p><span class="weight">RÉALISATION :</span> Emmanuel Mouret</p>
+                    <p><span class="weight">ACTEURS :</span> Camélia Jordana, Niels Schneider, Vincent Macaigne</p>
+                    <p><span class="weight">DESCRIPTION :</span> Daphné, enceinte de trois mois, est en vacances à la campagne avec son compagnon
+                        François. Il doit s’absenter pour son travail et elle se retrouve seule pour accueillir Maxime,
+                        son cousin qu’elle n’avait jamais rencontré. Pendant quatre jours, tandis qu'ils attendent le
+                        retour de François, Daphné et Maxime font petit à petit connaissance et se confient des récits
+                        de plus en plus intimes sur leurs histoires d'amour présentes et passées...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FILM 2 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 2) -->
+    <div class="modal fade" id="en-savoir-plus-film-2" tabindex="-1" aria-labelledby="en-savoir-plus-film-2"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-2">MERVEILLES À MONTFERMEIL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Comédie, Film d'auteur, Politique, Problème de couple</p>
+                    <p><span class="weight">RÉALISATION :</span> Jeanne Balibar</p>
+                    <p><span class="weight">ACTEURS :</span> Jeanne Balibar, Ramzy Bedia, Emmanuelle Béart</p>
+                    <p><span class="weight">DESCRIPTION :</span> Tout premier long-métrage réalisé en solo par l'actrice Jeanne Balibar (lauréate du
+                        César de la meilleure actrice en 2018 pour Barbara, et vue aussi dans Dieu seul me voit, Va
+                        savoir, ou Les Misérables), Merveilles à Montfermeil est une comédie française au ton très
+                        décalé, se déroulant au sein de l'administration de la ville de Montfermeil, située en banlieue
+                        parisienne (et déjà décor des Misérables, de Ladj Ly). Avec également, au sein du scénario, des
+                        personnages avec problèmes de couple... Et au casting, Ramzy Bedia (moitié du duo Eric et Ramzy,
+                        vu dans Des vents contraires ou Terminal Sud), Anthony Bajon (La Prière), François Chattot (Le
+                        Ciel étoilé au-dessus de ma tête), le chanteur Philippe Katerine, ou Emmanuelle Béart en
+                        mairesse. Une comédie façon film d'auteur, avec des réformes politiques en toile de fond.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FILM 3 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 3) -->
+    <div class="modal fade" id="en-savoir-plus-film-3" tabindex="-1" aria-labelledby="en-savoir-plus-film-3"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-3">LES HÉROS NE MEURENT JAMAISL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Drame, Film d'auteur, Mort, Voyages</p>
+                    <p><span class="weight">RÉALISATION :</span> Aude Léa Rapin</p>
+                    <p><span class="weight">ACTEURS :</span> Adele Haenel, Jonathan Couzinié, Antonia Buresi</p>
+                    <p><span class="weight">DESCRIPTION :</span> Dans une rue de Paris, un inconnu croit reconnaitre en Joachim un soldat mort en
+                        Bosnie le 21 août 1983. Or, le 21 août 1983 est le jour même de la naissance de Joachim !
+                        Troublé par la possibilité d’être la réincarnation de cet homme, il décide de partir pour
+                        Sarajevo avec ses amies Alice et Virginie. Dans ce pays hanté par les fantômes de la guerre, ils
+                        se lancent corps et âme sur les traces de la vie antérieure de Joachim..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (reservation) -->
+    <div class="modal fade" id="reserver-place" tabindex="-1" aria-labelledby="reserver-place" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reserver-place">Réservation de votre place</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Réserver votre place
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Réserver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="separator">
+    <section class="informations-div">
+        <div class="informations-container">
+            <div class="address">
+                <i class="fa fa-map-pin"> <span class="weight">Adresse</span> </i>
+                <p>35 Boulevard de Courcelles<br> 75008 Paris <br>01 19 20 60 30</p>
+            </div>
+            <div class="transport">
+                <i class="fa fa-subway"> <span class="weight">Métro</span></i>
+                <p>Ligne 3 Métro</p>
+            </div>
+            <div class="parking">
+                <i class="fa fa-car"> <span class="weight">Parking</span></i>
+                <p>Parking gratuit</p>
+            </div>
+        </div>
+    </section>
+    <hr class="separator">
+
+    <footer class="p-5 bg-dark text-white">
+        <div class="container-footer">
+            <h4>Les Films de Pleins Air</h4>
+            <div class="social-icons p-2">
+                <span class="p-2"><i class="fa fa-twitter"></i></span>
+                <span class="p-2"><i class="fa fa-instagram"></i></span>
+                <span class="p-2"><i class="fa fa-facebook-f"></i></span>
+            </div>
+
+            <div class="links p-2">
+                <a class="mr-2 ml-2" href="">Mentions légales</a>
+                <a class="mr-2 ml-2" href="">A propos de nous</a>
+                <a class="mr-2 ml-2" href="">Contact</a>
+            </div>
+
+            <div class="newsletters p-2">
+                <form>
+                    <label for="newsletter">Newsletters</label>
+                    <p><input id="newsletter" type="email" placeholder="email" /></p>
+                    <button class="btn btn-outline-light btn-sm">m'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
