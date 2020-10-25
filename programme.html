@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Films de Pleins Air</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="./index.html">Les Films de Pleins Air</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-white">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Accueil</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./programme.html">Programme</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./actualités.html">Actualités</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">A propos de nous</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- entête du site -->
+    <header class="p-5">
+        <h1 class="text-white">Les Films de Pleins Air</h1>
+        <h2 class="text-white">Du 05 Au 08 Août 2020</h2>
+    </header>
+
+    <!-- liste de film à projeter du 05/08/2020 -->
+    <section class="evening-program">
+        <hr class="separator">
+        <h2 class="text-center p-2">Les films</h2>
+        <hr class="separator">
+
+        <div class="container">
+            <h2 class="text-center p-2">Projection du 05 Août</h2>
+            <div class="row">
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">18h00 à 20h25</div>
+                        <img src="./images/films/les_choses_qu_on_dit_les_choses_qu_on_fait.jpg" class="card-img-top"
+                            alt="LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT">
+
+                        <div class="btn-group" role="group" aria-label="btn-group-film-1">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-1">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT</h5>
+                            <p class="card-text">Daphné, enceinte de trois mois, est en vacances à la campagne avec son
+                                compagnon François. Il doit s’absenter pour ...</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">20h30 à 22h55</div>
+                        <img src="./images/films/merveilles_a_montfermeil.jpg" class="card-img-top"
+                            alt="MERVEILLES À MONTFERMEIL">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-2">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-2">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">MERVEILLES À MONTFERMEIL</h5>
+                            <p class="card-text">Tout premier long-métrage réalisé en solo par l'actrice Jeanne Balibar
+                                (lauréate du
+                                César de la meilleure actrice en 2018 pour Barbar..
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">23h00 à 23h55</div>
+                        <img src="./images/films/les_heros_ne_meurent_jamais.jpg" class="card-img-top"
+                            alt="LES HÉROS NE MEURENT JAMAIS">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-3">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-3">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">LES HÉROS NE MEURENT JAMAIS</h5>
+                            <p class="card-text">Dans une rue de Paris, un inconnu croit reconnaitre en Joachim un
+                                soldat mort en Bosnie le 21 août 1983.Or, le 21 août 1983 est le jour même de ...</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- liste de film à projeter du 06/08/2020 -->
+    <section class="evening-program">
+
+        <div class="container">
+            <hr class="separator">
+            <h2 class="text-center p-2">Projection du 06 Août</h2>
+            <div class="row">
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">18h00 à 20h25</div>
+                        <img src="./images/films/Poissonsexe-affiche.jpg" class="card-img-top" alt="POISSONSEXE">
+
+                        <div class="btn-group" role="group" aria-label="btn-group-film-4">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-4">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">POISSONSEXE</h5>
+                            <p class="card-text">Alors que Miranda, la dernière baleine au monde, fait la une des
+                                journaux, Daniel, physicien obstiné ...</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">20h30 à 22h55</div>
+                        <img src="./images/films/la_danse_du_serpent.jpg" class="card-img-top"
+                            alt="LA DANSE DU SERPENT">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-5">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-5">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">LA DANSE DU SERPENT</h5>
+                            <p class="card-text">Selva, 13 ans, vit dans une ville côtière des Caraïbes. Après la
+                                disparition soudaine de sa seule figure maternelle...
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">23h00 à 23h55</div>
+                        <img src="./images/films/l_oiseau_de_paradis.jpg" class="card-img-top"
+                            alt="L'OISEAU DE PARADIS">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-6">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-6">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">L'OISEAU DE PARADIS</h5>
+                            <p class="card-text">Jeune assistant parlementaire métis, amoral et séducteur, Teivi revoit
+                                un jour Yasmina, une lointaine cousine maorie ...</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- liste de film à projeter du 07/08/2020 -->
+    <section class="evening-program">
+
+        <div class="container">
+            <hr class="separator">
+            <h2 class="text-center p-2">Projection du 07 Août</h2>
+            <div class="row">
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">18h00 à 20h25</div>
+                        <img src="./images/films/un_monde_ailleurs.jpg" class="card-img-top" alt="UN MONDE AILLEURS">
+
+                        <div class="btn-group" role="group" aria-label="btn-group-film-7">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-7">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">UN MONDE AILLEURS</h5>
+                            <p class="card-text">Amérique du Sud. Dans une forêt tropicale totalement isolée. Un groupe
+                                de cinq garçons entreprend une longue marche à la rencontre ...</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">20h30 à 22h55</div>
+                        <img src="./images/films/l_autre.jpg" class="card-img-top" alt="MERVEILLES À MONTFERMEIL">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-8">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-8">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">L'AUTRE</h5>
+                            <p class="card-text">Marie est une jeune danseuse de l’Opéra de Paris. Après la mort brutale
+                                de son père le jour de son trentième anniversaire, elle décide d’arrêter ...
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">23h00 à 23h55</div>
+                        <img src="./images/films/un_soupcon_d_amour.jpg" class="card-img-top"
+                            alt="LES HÉROS NE MEURENT JAMAIS">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-9">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-9">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">UN SOUPÇON D'AMOUR</h5>
+                            <p class="card-text">Geneviève Garland, une célèbre comédienne, répète « Andromaque » de
+                                Racine, avec pour partenaire, son mari André. Elle ressent un malaise profond ...</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- liste de film à projeter du 08/08/2020 -->
+    <section class="evening-program">
+
+        <div class="container">
+            <hr class="separator">
+            <h2 class="text-center p-2">Projection du 08 Août</h2>
+            <div class="row">
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">18h00 à 20h25</div>
+                        <img src="./images/films/portrait_de_la_jeune_fille_en_feu.jpg" class="card-img-top"
+                            alt="PORTRAIT DE LA JEUNE FILLE EN FEU">
+
+                        <div class="btn-group" role="group" aria-label="btn-group-film-10">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-10">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">PORTRAIT DE LA JEUNE FILLE EN FEU</h5>
+                            <p class="card-text">Film d'auteur français annoncé comme sobre mais également intense et
+                                passionné, Portrait ...</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">20h30 à 22h55</div>
+                        <img src="./images/films/SIBYL.jpg" class="card-img-top" alt="SIBYL">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-11">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-11">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">SIBYL</h5>
+                            <p class="card-text">Film signé par la réalisatrice française Justine Triet (La Bataille de
+                                Solférino, Victoria) et ...
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-film col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center">23h00 à 23h55</div>
+                        <img src="./images/films/BACURAU.jpg" class="card-img-top" alt="BACURAU">
+                        <div class="btn-group" role="group" aria-label="btn-group-film-12">
+                            <a href="#link" class="btn btn-outline-primary btn-bo" role="button">bande
+                                annonce</a>
+                            <!-- Bouton modal en savoir plus -->
+                            <button type="button" class="btn btn-outline-primary mx-auto btn-bo" data-toggle="modal"
+                                data-target="#en-savoir-plus-film-12">en savoir plus</button>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">BACURAU</h5>
+                            <p class="card-text">Prix du jury à Cannes 2019, Bacurau est un film d'auteur brésilien
+                                entre drame et thriller, avec une forte charge politique...</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Bouton modal réservation -->
+                            <button type="button" class="btn btn-outline-primary btn-sm btn-bo btn-block"
+                                data-toggle="modal" data-target="#reserver-place">
+                                Réserver votre place
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FILM 1 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 1) -->
+    <div class="modal fade" id="en-savoir-plus-film-1" tabindex="-1" aria-labelledby="en-savoir-plus-film-1"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-1">LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Amour, Drame, Film d'auteur, Problème de couple,
+                        Séduction</p>
+                    <p><span class="weight">RÉALISATION :</span> Emmanuel Mouret</p>
+                    <p><span class="weight">ACTEURS :</span> Camélia Jordana, Niels Schneider, Vincent Macaigne</p>
+                    <p><span class="weight">DESCRIPTION :</span> Daphné, enceinte de trois mois, est en vacances à la
+                        campagne avec son compagnon
+                        François. Il doit s’absenter pour son travail et elle se retrouve seule pour accueillir Maxime,
+                        son cousin qu’elle n’avait jamais rencontré. Pendant quatre jours, tandis qu'ils attendent le
+                        retour de François, Daphné et Maxime font petit à petit connaissance et se confient des récits
+                        de plus en plus intimes sur leurs histoires d'amour présentes et passées...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FILM 2 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 2) -->
+    <div class="modal fade" id="en-savoir-plus-film-2" tabindex="-1" aria-labelledby="en-savoir-plus-film-2"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-2">MERVEILLES À MONTFERMEIL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Comédie, Film d'auteur, Politique, Problème de couple
+                    </p>
+                    <p><span class="weight">RÉALISATION :</span> Jeanne Balibar</p>
+                    <p><span class="weight">ACTEURS :</span> Jeanne Balibar, Ramzy Bedia, Emmanuelle Béart</p>
+                    <p><span class="weight">DESCRIPTION :</span> Tout premier long-métrage réalisé en solo par l'actrice
+                        Jeanne Balibar (lauréate du
+                        César de la meilleure actrice en 2018 pour Barbara, et vue aussi dans Dieu seul me voit, Va
+                        savoir, ou Les Misérables), Merveilles à Montfermeil est une comédie française au ton très
+                        décalé, se déroulant au sein de l'administration de la ville de Montfermeil, située en banlieue
+                        parisienne (et déjà décor des Misérables, de Ladj Ly). Avec également, au sein du scénario, des
+                        personnages avec problèmes de couple... Et au casting, Ramzy Bedia (moitié du duo Eric et Ramzy,
+                        vu dans Des vents contraires ou Terminal Sud), Anthony Bajon (La Prière), François Chattot (Le
+                        Ciel étoilé au-dessus de ma tête), le chanteur Philippe Katerine, ou Emmanuelle Béart en
+                        mairesse. Une comédie façon film d'auteur, avec des réformes politiques en toile de fond.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FILM 3 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 3) -->
+    <div class="modal fade" id="en-savoir-plus-film-3" tabindex="-1" aria-labelledby="en-savoir-plus-film-3"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-3">LES HÉROS NE MEURENT JAMAIS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Drame, Film d'auteur, Mort, Voyages</p>
+                    <p><span class="weight">RÉALISATION :</span> Aude Léa Rapin</p>
+                    <p><span class="weight">ACTEURS :</span> Adele Haenel, Jonathan Couzinié, Antonia Buresi</p>
+                    <p><span class="weight">DESCRIPTION :</span> Dans une rue de Paris, un inconnu croit reconnaitre en
+                        Joachim un soldat mort en
+                        Bosnie le 21 août 1983. Or, le 21 août 1983 est le jour même de la naissance de Joachim !
+                        Troublé par la possibilité d’être la réincarnation de cet homme, il décide de partir pour
+                        Sarajevo avec ses amies Alice et Virginie. Dans ce pays hanté par les fantômes de la guerre, ils
+                        se lancent corps et âme sur les traces de la vie antérieure de Joachim..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 4 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 4) -->
+    <div class="modal fade" id="en-savoir-plus-film-4" tabindex="-1" aria-labelledby="en-savoir-plus-film-4"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-4">POISSONSEXE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Comédie, Amour, Film d'auteur, Monde scientifique,
+                        Séduction</p>
+                    <p><span class="weight">RÉALISATION :</span> Olivier Babinet</p>
+                    <p><span class="weight">ACTEURS :</span> Ellen Dorrit Petersen, Jean-Benoît Ugeux, Gustave Kervern
+                    </p>
+                    <p><span class="weight">DESCRIPTION :</span> Alors que Miranda, la dernière baleine au monde, fait
+                        la une des journaux, Daniel, physicien obstiné, tente de redonner aux poissons l’envie de
+                        copuler. Célibataire désabusé, il est lui-même hanté par le désir d’être père et compte bien
+                        traiter ce problème scientifiquement. Le hic c’est qu’à Bellerose il y a seulement 3 femmes en
+                        âge de procréer, soit une chance sur 6232,33 de rencontrer la mère de ses futurs enfants.
+                        Pourtant un jour, en sauvant de la noyade un étrange poisson à pattes, Daniel va réapprendre à
+                        tomber amoureux.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 5 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 5) -->
+    <div class="modal fade" id="en-savoir-plus-film-5" tabindex="-1" aria-labelledby="en-savoir-plus-film-5"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-5">LA DANSE DU SERPENT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Drame, Film d'auteur, Contemplatif, Nature</p>
+                    <p><span class="weight">RÉALISATION :</span> Sofía Quirós Ubeda</p>
+                    <p><span class="weight">ACTEURS :</span> Smachleen Gutiérrez, Humberto Samuels, Hortensia Smith</p>
+                    <p><span class="weight">DESCRIPTION :</span> Selva, 13 ans, vit dans une ville côtière des Caraïbes.
+                        Après la disparition soudaine de sa seule figure maternelle, Selva est la seule qui reste pour
+                        prendre soin de son grand-père, qui ne veut plus vivre. Entre ombres mystérieuses et jeux
+                        sauvages, elle se demande si elle aidera son grand-père à réaliser son désir, même si cela peut
+                        impliquer de traverser ses derniers moments d’enfance.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 6 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 6) -->
+    <div class="modal fade" id="en-savoir-plus-film-6" tabindex="-1" aria-labelledby="en-savoir-plus-film-6"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-6">L'OISEAU DE PARADIS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Fantastique, Drame, Film d'auteur, Magie, Maladie</p>
+                    <p><span class="weight">RÉALISATION :</span> Paul Manaté</p>
+                    <p><span class="weight">ACTEURS :</span> Sebastian Urzendowsky, Patrick Descamps</p>
+                    <p><span class="weight">DESCRIPTION :</span> Jeune assistant parlementaire métis, amoral et
+                        séducteur, Teivi revoit un jour Yasmina, une lointaine cousine maorie aux pouvoirs mystiques,
+                        qui lui fait une étrange prédiction. Mais en proie à des malaises hallucinatoires et empêtré
+                        dans une affaire de corruption immobilière, Teivi perd pied. Persuadé que Yasmina peut le
+                        guérir, il part à sa recherche et chemine jusqu’à la presqu’île fantasmagorique de Tahiti.
+                        L’Oiseau de paradis raconte un Tahiti intime et légendaire, métis et vivant. Un conte mystique
+                        et contemporain sur le plus beau des paradis perdus.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 7 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 7) -->
+    <div class="modal fade" id="en-savoir-plus-film-7" tabindex="-1" aria-labelledby="en-savoir-plus-film-7"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-7">UN MONDE AILLEURS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Expérimental, Drame, Film d'auteur, Réflexion, Jungle
+                    </p>
+                    <p><span class="weight">RÉALISATION :</span> Etienne Faure</p>
+                    <p><span class="weight">ACTEURS :</span> Emile Berling, Alain Fabien Delon, Ernst Umhauer</p>
+                    <p><span class="weight">DESCRIPTION :</span> Amérique du Sud. Dans une forêt tropicale totalement
+                        isolée. Un groupe de cinq garçons entreprend une longue marche à la rencontre d’un mystérieux
+                        guérisseur. Suite à une blessure, ils se retrouvent bloqués sur le bord d’une rivière à fort
+                        courant. De l’autre côté de la rivière, ils aperçoivent un campement assez étrange qui semble
+                        occupé par trois filles. Il est absolument impossible de traverser et de communiquer...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 8 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 8) -->
+    <div class="modal fade" id="en-savoir-plus-film-8" tabindex="-1" aria-labelledby="en-savoir-plus-film-8"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-8">L'AUTRE</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Drame, Film d'auteur, Triste, Danse</p>
+                    <p><span class="weight">RÉALISATION :</span> Charlotte Dauphin</p>
+                    <p><span class="weight">ACTEURS :</span> Astrid Berges-Frisbey, James Thiérrée, Anouk Grinberg</p>
+                    <p><span class="weight">DESCRIPTION :</span> Marie est une jeune danseuse de l’Opéra de Paris. Après
+                        la mort brutale de son père le jour de son trentième anniversaire, elle décide d’arrêter sa
+                        pratique artistique et poursuit une existence de plus en plus recluse. Son deuil enferme Marie
+                        dans ses souvenirs, à travers les écrits mystérieux laissés par son père, ses pensées, et une
+                        maison qui semble l’emprisonner. Son amour pour Paul, un photographe qui a pris le dernier
+                        portrait de son père quelques minutes avant sa mort, va peu à peu éveiller en Marie une force
+                        vitale qui va l’aider à devenir une autre version d’elle-même.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 9 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 9) -->
+    <div class="modal fade" id="en-savoir-plus-film-9" tabindex="-1" aria-labelledby="en-savoir-plus-film-9"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-9">UN SOUPÇON D'AMOUR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Drame, Film d'auteur, Problème de couple, Adultère
+                    </p>
+                    <p><span class="weight">RÉALISATION :</span> Paul Vecchiali</p>
+                    <p><span class="weight">ACTEURS :</span> Marianne Basler, Fabienne Babe, Jean-Philippe Puymartin</p>
+                    <p><span class="weight">DESCRIPTION :</span> Geneviève Garland, une célèbre comédienne, répète «
+                        Andromaque » de Racine, avec pour partenaire, son mari André. Elle ressent un malaise profond à
+                        interpréter ce personnage et cède son rôle à son amie Isabelle qui est aussi la maîtresse de son
+                        époux. Geneviève s’en va avec son fils malade dans son village natal. Elle semble fuir certaines
+                        réalités difficiles à admettre.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FILM 10 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 10) -->
+    <div class="modal fade" id="en-savoir-plus-film-10" tabindex="-1" aria-labelledby="en-savoir-plus-film-10"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-10">PORTRAIT DE LA JEUNE FILLE EN FEU</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Amour, Historique, Film d'auteur, Amour impossible,
+                        Homosexualité féminine</p>
+                    <p><span class="weight">RÉALISATION :</span> Céline Sciamma</p>
+                    <p><span class="weight">ACTEURS :</span> Adele Haenel, Noémie Merlant, Valeria Golino</p>
+                    <p><span class="weight">DESCRIPTION :</span> Film d'auteur français annoncé comme sobre mais
+                        également intense et passionné, Portrait de la jeune fille en feu est signé par Céline Sciamma
+                        (réalisatrice révélée par Naissance des pieuvres, et confirmée par Tomboy et Bande de filles).
+                        Il s'attache à une jeune femmme peintre (Noémie Merlant, vue dans Les Héritiers, Le Ciel
+                        attendra ou Curiosa) à laquelle on commande un portrait, dans un XVIIIe siècle où les femmes
+                        sont très contraintes. Un récit qui se déroule sur une île venteuse, avec à la clé une
+                        réalisation décrite comme très belle, et un casting composé de Luana Bajrami (Fête de famille),
+                        Valeria Golino (Rain Man) et bien sûr Adèle Haenel (Les Combattants). Un film récompensé par le
+                        Prix du scénario à Cannes 2019.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 11 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 11) -->
+    <div class="modal fade" id="en-savoir-plus-film-11" tabindex="-1" aria-labelledby="en-savoir-plus-film-11"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-11">SIBYL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Drame, Amour, Film d'auteur, Triste, Emouvant</p>
+                    <p><span class="weight">RÉALISATION :</span> Justine Triet</p>
+                    <p><span class="weight">ACTEURS :</span> Virginie Efira, Adèle Exarchopoulos, Gaspard Ulliel</p>
+                    <p><span class="weight">DESCRIPTION :</span> Film signé par la réalisatrice française Justine Triet
+                        (La Bataille de Solférino, Victoria) et annoncé comme très ambitieux, Sibyl est un portrait de
+                        femme en forme de drame psychologique, annoncé comme plein d'ambiguïté et de finesse. Présenté
+                        en Compétition au Festival de Cannes 2019, il suit Virginie Efira (20 ans d'écart, Un amour
+                        impossible) dans la peau d'une écrivaine devenue psy, et désirant à nouveau changer de vie, tout
+                        en restant hantée par son passé familial... Une jeune actrice troublée (Adèle Exarchopoulos,
+                        révélation de La Vie d'Adèle) va se présenter à elle comme un miroir, et un sujet d'étude. Sibyl
+                        compte également, à son casting, Niels Schneider (Les Amours imaginaires, Diamant noir), Gaspard
+                        Ulliel (Saint Laurent), Laure Calamy (Dix pour cent) ou Sandra Hüller (Toni Erdmann).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILM 12 -->
+    <!-- Modal (en savoir plus )page d'accueil (film 12) -->
+    <div class="modal fade" id="en-savoir-plus-film-12" tabindex="-1" aria-labelledby="en-savoir-plus-film-12"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="en-savoir-plus-film-12">BACURAU</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="weight">2020 - FRANCE</span> - Thriller, Drame, Film d'auteur, Assassinat, Engagé
+                    </p>
+                    <p><span class="weight">RÉALISATION :</span> Kleber Mendonça Filho, Juliano Dornelles</p>
+                    <p><span class="weight">ACTEURS :</span> Bárbara Colen, Sonia Braga, Udo Kier</p>
+                    <p><span class="weight">DESCRIPTION :</span> Prix du jury à Cannes 2019, Bacurau est un film
+                        d'auteur brésilien entre drame et thriller, avec une forte charge politique. Le réalisateur
+                        Kleber Mendonça Filho (très remarqué en 2016 pour Aquarius) s'allie ici à Juliano Dornelles pour
+                        mettre en scène les habitants d'un petit village au coeur du monde rural brésilien, confrontés
+                        aux hommes politiques qui limitent leurs moyens (et leur accès à l'eau), et à des injustices
+                        diverses. Et surtout, à une menace bien pire qui les guette dans l'ombre... Annoncé comme
+                        original et pourvu d'un ton à la fois solaire, mystérieux et prenant, ce film permet de
+                        retrouver Barbara Colen (Au coeur du monde), Thomas Aquino (la série 3%, vue sur Netflix), Sonia
+                        Braga (Aquarius) ou le légendaire Udo Kier (Chair pour Frankenstein, Suspiria).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (reservation) -->
+    <div class="modal fade" id="reserver-place" tabindex="-1" aria-labelledby="reserver-place" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="reserver-place">Réservation de votre place</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form method="post" action="#">
+                        <div class="p-3">
+                            <label for="choix-film">Choix du film</label>
+                            <select id="choix-film" class="form-control" required>
+                                <option id="default">sélectionner un film</option>
+                                <option id="LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT">LES CHOSES QU'ON DIT, LES
+                                    CHOSES QU'ON FAIT</option>
+                                <option id="MERVEILLES À MONTFERMEIL">MERVEILLES À MONTFERMEIL</option>
+                                <option id="LES HÉROS NE MEURENT JAMAIS">LES HÉROS NE MEURENT JAMAIS</option>
+                                <option id="POISSONSEXE">POISSONSEXE</option>
+                                <option id="LA DANSE DU SERPENT">LA DANSE DU SERPENT</option>
+                                <option id="L'OISEAU DE PARADIS">L'OISEAU DE PARADIS</option>
+                                <option id="UN MONDE AILLEURS">UN MONDE AILLEURS</option>
+                                <option id="L'AUTRE">L'AUTRE</option>
+                                <option id="PORTRAIT DE LA JEUNE FILLE EN FEU">PORTRAIT DE LA JEUNE FILLE EN FEU</option>
+                                <option id="SIBYL">SIBYL</option>
+                                <option id="BACURAU">BACURAU</option>
+                            </select>
+                        </div>
+
+                        <div class="p-3">
+                            <label for="nombre-place">Nombre de place</label>
+                            <select id="nombre-place" class="form-control" required>
+                                <option id="default">sélectionner le nombre de place</option>
+                                <option id="1">1</option>
+                                <option id="2">2</option>
+                                <option id="3">3</option>
+                                <option id="4">4</option>
+                                <option id="5">5</option>
+                                <option id="6">6</option>
+                                <option id="7">7</option>
+                                <option id="8">8</option>
+                                <option id="9">9</option>
+                            </select>
+                        </div>
+
+                        <div class="p-3">
+                            <label for="nombre-place">Coordonnées du réservataire</label>
+                            <p><input type="text" placeholder="Nom" class="form-control" required /></p>
+                            <p><input type="text" placeholder="Prénom" class="form-control" required /></p>
+                            <p><input type="text" placeholder="Code postal" class="form-control" required /></p>
+                            <p><input type="email" placeholder="email" class="form-control" required /></p>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="submit" class="btn btn-primary">Réserver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="separator">
+
+    <section class="informations-div">
+        <div class="informations-container">
+            <div class="address">
+                <i class="fa fa-map-pin"> <span class="weight">Adresse</span> </i>
+                <p>35 Boulevard de Courcelles<br> 75008 Paris <br>01 19 20 60 30</p>
+            </div>
+            <div class="transport">
+                <i class="fa fa-subway"> <span class="weight">Métro</span></i>
+                <p>Ligne 3 Métro</p>
+            </div>
+            <div class="parking">
+                <i class="fa fa-car"> <span class="weight">Parking</span></i>
+                <p>Parking gratuit</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <footer class="p-5 bg-dark text-white">
+        <div class="container-footer">
+            <h4>Les Films de Pleins Air</h4>
+            <div class="social-icons p-2">
+                <span class="p-2"><i class="fa fa-twitter"></i></span>
+                <span class="p-2"><i class="fa fa-instagram"></i></span>
+                <span class="p-2"><i class="fa fa-facebook-f"></i></span>
+            </div>
+
+            <div class="links p-2">
+                <a class="mr-2 ml-2" href="">Mentions légales</a>
+                <a class="mr-2 ml-2" href="">A propos de nous</a>
+                <a class="mr-2 ml-2" href="">Contact</a>
+            </div>
+
+            <div class="newsletters p-2">
+                <form>
+                    <label for="newsletter">Newsletters</label>
+                    <p><input id="newsletter" type="email" placeholder="email" /></p>
+                    <button class="btn btn-outline-light btn-sm">m'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
