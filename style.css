@@ -47,7 +47,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(./images/cinema-header.jpg);
+    background-image: url(./images/cinema-header-modif.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -59,8 +59,12 @@ header{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    h2{
-        font-size: 1.6rem;
+    header h2{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 1.6rem !important;
     }
 
     .informations-container{
