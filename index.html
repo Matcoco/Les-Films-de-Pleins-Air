@@ -231,10 +231,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p><span class="weight">2020 - FRANCE</span> - Amour, Drame, Film d'auteur, Problème de couple, Séduction</p>
+                    <p><span class="weight">2020 - FRANCE</span> - Amour, Drame, Film d'auteur, Problème de couple,
+                        Séduction</p>
                     <p><span class="weight">RÉALISATION :</span> Emmanuel Mouret</p>
                     <p><span class="weight">ACTEURS :</span> Camélia Jordana, Niels Schneider, Vincent Macaigne</p>
-                    <p><span class="weight">DESCRIPTION :</span> Daphné, enceinte de trois mois, est en vacances à la campagne avec son compagnon
+                    <p><span class="weight">DESCRIPTION :</span> Daphné, enceinte de trois mois, est en vacances à la
+                        campagne avec son compagnon
                         François. Il doit s’absenter pour son travail et elle se retrouve seule pour accueillir Maxime,
                         son cousin qu’elle n’avait jamais rencontré. Pendant quatre jours, tandis qu'ils attendent le
                         retour de François, Daphné et Maxime font petit à petit connaissance et se confient des récits
@@ -261,10 +263,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p><span class="weight">2020 - FRANCE</span> - Comédie, Film d'auteur, Politique, Problème de couple</p>
+                    <p><span class="weight">2020 - FRANCE</span> - Comédie, Film d'auteur, Politique, Problème de couple
+                    </p>
                     <p><span class="weight">RÉALISATION :</span> Jeanne Balibar</p>
                     <p><span class="weight">ACTEURS :</span> Jeanne Balibar, Ramzy Bedia, Emmanuelle Béart</p>
-                    <p><span class="weight">DESCRIPTION :</span> Tout premier long-métrage réalisé en solo par l'actrice Jeanne Balibar (lauréate du
+                    <p><span class="weight">DESCRIPTION :</span> Tout premier long-métrage réalisé en solo par l'actrice
+                        Jeanne Balibar (lauréate du
                         César de la meilleure actrice en 2018 pour Barbara, et vue aussi dans Dieu seul me voit, Va
                         savoir, ou Les Misérables), Merveilles à Montfermeil est une comédie française au ton très
                         décalé, se déroulant au sein de l'administration de la ville de Montfermeil, située en banlieue
@@ -298,7 +302,8 @@
                     <p><span class="weight">2020 - FRANCE</span> - Drame, Film d'auteur, Mort, Voyages</p>
                     <p><span class="weight">RÉALISATION :</span> Aude Léa Rapin</p>
                     <p><span class="weight">ACTEURS :</span> Adele Haenel, Jonathan Couzinié, Antonia Buresi</p>
-                    <p><span class="weight">DESCRIPTION :</span> Dans une rue de Paris, un inconnu croit reconnaitre en Joachim un soldat mort en
+                    <p><span class="weight">DESCRIPTION :</span> Dans une rue de Paris, un inconnu croit reconnaitre en
+                        Joachim un soldat mort en
                         Bosnie le 21 août 1983. Or, le 21 août 1983 est le jour même de la naissance de Joachim !
                         Troublé par la possibilité d’être la réincarnation de cet homme, il décide de partir pour
                         Sarajevo avec ses amies Alice et Virginie. Dans ce pays hanté par les fantômes de la guerre, ils
@@ -316,13 +321,54 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="reserver-place">Réservation de votre place</h5>
+                    <h3 class="modal-title" id="reserver-place">Réservation de votre place</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Réserver votre place
+
+                    <form>
+                        <div class="p-3">
+                            <label for="choix-film">Choix du film</label>
+                            <select id="choix-film" class="form-control">
+                                <option id="default">sélectionner un film</option>
+                                <option id="LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT">LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT</option>
+                                <option id="MERVEILLES À MONTFERMEIL">MERVEILLES À MONTFERMEIL</option>
+                                <option id="LES HÉROS NE MEURENT JAMAIS">LES HÉROS NE MEURENT JAMAIS</option>
+                                <option id=""></option>
+                                <option id=""></option>
+                                <option id=""></option>
+                                <option id=""></option>
+                                <option id=""></option>
+                                <option id=""></option>
+                            </select>
+                        </div>
+
+                        <div class="p-3">
+                            <label for="nombre-place">Nombre de place</label>
+                            <select id="nombre-place" class="form-control">
+                                <option id="default">sélectionner le nombre de place</option>
+                                <option id="1">1</option>
+                                <option id="2">2</option>
+                                <option id="3">3</option>
+                                <option id="4">4</option>
+                                <option id="5">5</option>
+                                <option id="6">6</option>
+                                <option id="7">7</option>
+                                <option id="8">8</option>
+                                <option id="9">9</option>
+                            </select>
+                        </div>
+
+                        <div class="p-3">
+                            <label for="nombre-place">Coordonnées du réservataire</label>
+                            <p><input type="text" placeholder="Nom" class="form-control"/></p>
+                            <p><input type="text" placeholder="Prénom" class="form-control"/></p>
+                            <p><input type="text" placeholder="Code postal" class="form-control"/></p>
+                        </div>
+
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
