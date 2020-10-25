@@ -33,7 +33,7 @@
                     <a class="nav-link" href="#">Actualités</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">A propos de nous</a>
+                    <a class="nav-link" href="./about.html">A propos de nous</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact</a>
@@ -328,10 +328,10 @@
                 </div>
                 <div class="modal-body">
 
-                    <form>
+                    <form method="post" action="#">
                         <div class="p-3">
                             <label for="choix-film">Choix du film</label>
-                            <select id="choix-film" class="form-control">
+                            <select id="choix-film" class="form-control" required>
                                 <option id="default">sélectionner un film</option>
                                 <option id="LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT">LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT</option>
                                 <option id="MERVEILLES À MONTFERMEIL">MERVEILLES À MONTFERMEIL</option>
@@ -347,7 +347,7 @@
 
                         <div class="p-3">
                             <label for="nombre-place">Nombre de place</label>
-                            <select id="nombre-place" class="form-control">
+                            <select id="nombre-place" class="form-control" required>
                                 <option id="default">sélectionner le nombre de place</option>
                                 <option id="1">1</option>
                                 <option id="2">2</option>
@@ -363,16 +363,17 @@
 
                         <div class="p-3">
                             <label for="nombre-place">Coordonnées du réservataire</label>
-                            <p><input type="text" placeholder="Nom" class="form-control"/></p>
-                            <p><input type="text" placeholder="Prénom" class="form-control"/></p>
-                            <p><input type="text" placeholder="Code postal" class="form-control"/></p>
+                            <p><input type="text" placeholder="Nom" class="form-control" required/></p>
+                            <p><input type="text" placeholder="Prénom" class="form-control" required/></p>
+                            <p><input type="text" placeholder="Code postal" class="form-control" required/></p>
+                            <p><input type="email" placeholder="email" class="form-control" required/></p>
                         </div>
 
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                    <button type="button" class="btn btn-primary">Réserver</button>
+                    <button type="submit" class="btn btn-primary">Réserver</button>
                 </div>
             </div>
         </div>
