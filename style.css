@@ -1,13 +1,16 @@
-.evening-program{
+/* PAGE D'ACCUEIL */
+
+.evening-program {
     display: flex;
     flex-direction: column;
 }
 
-h5{
+h5 {
     font-size: 0.8rem;
     font-weight: 700;
 }
-.weight{
+
+.weight {
     font-weight: bold;
 }
 
@@ -16,11 +19,11 @@ h5{
     border-top-right-radius: 0px;
 }
 
-.btn-bo{
+.btn-bo {
     border-radius: 0px;
 }
 
-.title-actualite{
+.title-actualite {
     text-transform: uppercase;
 }
 
@@ -29,20 +32,20 @@ h5{
     margin-bottom: 30px;
     height: 3px;
     width: 70%;
-    border-top: 5px dashed rgba(72,0,0,0.8);
+    border-top: 5px dashed rgba(72, 0, 0, 0.8);
 }
 
-.newsletters{
-    border:1px solid white;
+.newsletters {
+    border: 1px solid white;
     border-radius: 1rem;
 }
 
 .navbar-dark, .navbar-toggler, .navbar-nav, .nav-link {
-    color: rgba(255,255,255,1)!important;
-    border-color: rgba(255,255,255,1)!important;
+    color: rgba(255, 255, 255, 1)!important;
+    border-color: rgba(255, 255, 255, 1)!important;
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,131 +58,133 @@ header{
     width: 100%;
 }
 
-
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
 
-    header h2{
+@media (max-width: 575.98px) {
+    /* PAGE D'ACCUEIL */
+    header h2 {
         font-size: 1.5rem;
     }
-
-    h1{
+    h1 {
         font-size: 1.6rem !important;
     }
-
-    .informations-container{
+    .informations-container {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-
-    .container-footer, .links{
+    .container-footer, .links {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-
-    .navbar-nav{
+    .navbar-nav {
         text-align: center;
     }
- }
+
+    /* CONTACT */
+    .title-contact {
+        font-size: 1.4rem;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .informations-container{
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* PAGE D'ACCUEIL */
+    .informations-container {
         display: flex;
         flex-direction: row;
         text-align: center;
         justify-content: space-around;
         padding: 2rem;
     }
-
-    .container-footer, .links{
+    .container-footer, .links {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-
-    .newsletters{
+    .newsletters {
         width: 40%;
         margin: auto;
     }
-
-    .navbar-nav{
+    .navbar-nav {
         text-align: center;
+    }
+    /* CONTACT */
+    .title-contact {
+        font-size: 1.5rem;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
 
-    .card-film, .card-actualite{
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* PAGE D'ACCUEIL */
+    .card-film, .card-actualite {
         padding: 0rem 8rem 3rem 8rem;
     }
-
-    .informations-container{
+    .informations-container {
         display: flex;
         flex-direction: row;
         text-align: center;
         justify-content: space-around;
         padding: 2rem;
     }
-
-    .container-footer, .links{
+    .container-footer, .links {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    
-    .newsletters{
+    .newsletters {
         width: 40%;
         margin: auto;
     }
-
-    .navbar-nav{
+    .navbar-nav {
         text-align: center;
     }
 }
 
 /* // Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .informations-container{
+    /* PAGE D'ACCUEIL */
+    .informations-container {
         display: flex;
         flex-direction: row;
         text-align: center;
         justify-content: space-around;
         padding: 2rem;
     }
-
-    .container-footer, .links{
+    .container-footer, .links {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-
-    .newsletters{
+    .newsletters {
         width: 40%;
         margin: auto;
     }
- }
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
-    .informations-container{
+    /* PAGE D'ACCUEIL */
+    .informations-container {
         display: flex;
         flex-direction: row;
         text-align: center;
         justify-content: space-around;
         padding: 2rem;
     }
-
-    .container-footer, .links{
+    .container-footer, .links {
         display: flex;
         flex-direction: row;
         text-align: center;
         justify-content: space-evenly;
     }
-    .social-icons, .links{
+    .social-icons, .links {
         align-self: flex-end;
     }
- }
+}
