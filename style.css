@@ -1,3 +1,11 @@
+/* importation de la police d'ériture */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #343a40;
+}
+
 /* PAGE D'ACCUEIL */
 
 .evening-program {
@@ -58,6 +66,26 @@ header {
     width: 100%;
 }
 
+.card-header, .card-footer, .btn-group, .modal-header {
+    background-color: #dc3545!important;
+    color: white!important;
+}
+
+.modal-header h5, .modal-title {
+    color: white!important;
+}
+
+/* Footer */
+
+.container-footer h4, .social-icons i, .container-footer label, a {
+    color: white;
+}
+
+/* informations utiles */
+.informations-div h2{
+    text-align: center;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
@@ -67,6 +95,9 @@ header {
     }
     h1 {
         font-size: 1.6rem !important;
+    }
+    h4 {
+        font-size: 1.3rem!important;
     }
     .informations-container {
         display: flex;
@@ -81,11 +112,18 @@ header {
     .navbar-nav {
         text-align: center;
     }
+    h3#reserver-place-title.modal-title{
+        font-size: 1.3rem!important;
+    }
     /* CONTACT */
     .title-contact {
         font-size: 1.4rem;
     }
     .image-about {
+        width: 80vw;
+    }
+    /* ARTICLES */
+    .image-article {
         width: 80vw;
     }
 }
@@ -106,6 +144,9 @@ header {
         flex-direction: column;
         text-align: center;
     }
+    h3#reserver-place-title.modal-title.modal-title{
+        font-size: 1.2rem!important;
+    }
     .newsletters {
         width: 40%;
         margin: auto;
@@ -118,6 +159,10 @@ header {
         font-size: 1.5rem;
     }
     .image-about {
+        width: 70vw;
+    }
+    /* ARTICLES */
+    .image-article {
         width: 70vw;
     }
 }
@@ -159,6 +204,10 @@ header {
         margin: auto;
         width: 50%;
     }
+    /* ARTICLES */
+    .image-article {
+        width: 50%;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -192,6 +241,10 @@ header {
         margin: auto;
         width: 50%;
     }
+    /* ARTICLES */
+    .image-article {
+        width: 50%;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -223,6 +276,10 @@ header {
     }
     .div-p {
         margin: auto;
+        width: 50%;
+    }
+    /* ARTICLES */
+    .image-article {
         width: 50%;
     }
 }
